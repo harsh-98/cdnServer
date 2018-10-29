@@ -1,0 +1,16 @@
+ignore_patterns: ['*.swp', '*.DS_Store']
+remote_host: ''
+remote_port: 22
+remote_username: ''
+private_key_file: '<username>/.ssh/id_rsa'
+private_key_password: ''
+remote_password: ''
+
+# ==== Path Configuration ====
+
+remote_root_path: '/home/debian'
+local_root_path: '~'
+path_mappings:
+[
+ # { local: 'cdn', remote: 'cdn' }, # Would map <local_root_path>/my/source/code/www/js => <remote_root_path>/js
+]
