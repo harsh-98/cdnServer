@@ -14,7 +14,7 @@ http.createServer(function (req, res) {
 	
 	console.log("Country of client is :: "+data['geobytescountry']);
 		if(data['geobytescountry'] == "India")
-			{res.writeHead(302,  {Location: "http://google.com"});
+			{res.writeHead(302,  {Location: "https://cdnproject.ml"});
 			res.end();		
 			}  
 		else	
