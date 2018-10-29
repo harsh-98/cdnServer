@@ -3,15 +3,9 @@
 """
 pytograph - Reflect local filesystem changes on a remote system in real time, automatically.
 
-<https://github.com/joshdick/pytograph>
 
 Requires Python 2.7, and the third-party Python packages config, pysftp, and watchdog.
 """
-
-__author__ = 'Josh Dick <joshdick.net>'
-__email__ = 'josh@joshdick.net'
-__copyright__ = '(c) 2011-2012, Josh Dick'
-__license__ = 'Simplified BSD'
 
 from config import Config
 from watchdog.observers import Observer
